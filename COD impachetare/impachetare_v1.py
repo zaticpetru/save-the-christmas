@@ -26,7 +26,6 @@ def impachetare(kid):
     for i in kid.cadouri:
         setattr(i, "ambalaj", kid.favorite_color)
     delattr(kid, "favorite_color")
-    return kid
 
 # f = copil("123", "John", "12", "boy", "Red", "Romania", "Bucuresti", "Mihai Viteazu", "54", [cadou("Masina", "1", "Albastra", "1234"), cadou("Telefon", "1", "Negru", "1235")])
 # g = copil("223", "Ion", "14", "boy", "Black", "Moldova", "Chisinau", "Stefan Cel Mare", "12", [cadou("Phone", "1", "Ros", "3235")])
